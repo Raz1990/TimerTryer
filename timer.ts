@@ -33,11 +33,11 @@ class Timer {
     }
 
     start() {
-        let callBacksHub = ()=> {
-            for (let i = 0; i < this.callbacks.length; i++) {
-                this.callbacks[i]();
+        const callBacksHub = ()=> {
+            for (const callback of this.callbacks) {
+                callback();
             }
-        }
+        };
 
         this.h = setInterval(callBacksHub
             , this.time);

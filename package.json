@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "tsc -p tsconfig.json && node timer.js"
+    "start": "tsc -p tsconfig.json && node dist\\timer.js"
   },
   "keywords": [],
   "author": "Raz Harash",
