@@ -1,0 +1,16 @@
+{
+  "name": "timer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "timer.js",
+  "dependencies": {
+    "typescript": "^2.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "tsc -p tsconfig.json && node timer.js"
+  },
+  "keywords": [],
+  "author": "Raz Harash",
+  "license": "ISC"
+}
